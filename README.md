@@ -1,4 +1,4 @@
-# Projeto Ultrlinks
+# Projeto Ultralinks
 
 Este projeto utiliza o banco de dados PostgreSQL para armazenar informações relacionadas a implementação de um sistema para depósito e transferência de dinheiro entre contas.
 
