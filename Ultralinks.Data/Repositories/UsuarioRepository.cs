@@ -92,6 +92,7 @@ namespace Ultralinks.Data.Repositories
                 if (usuario.EnderecoCobranca != null)
                 {
                     usuario.EnderecoCobranca.DataAlteracao = DateTime.UtcNow;
+                    usuario.EnderecoCobranca.UsuarioId = usuario.Id;
                     _context.Entry(entity.EnderecoCobranca).CurrentValues.SetValues(usuario.EnderecoCobranca);
                 }
 
